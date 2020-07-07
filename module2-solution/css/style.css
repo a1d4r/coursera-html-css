@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#chicken {
+    color: black;
+    background-color: rgb(213, 152, 152);
+}
+
+#beef {
+    color: white;
+    background-color: rgb(193, 69, 67);
+}
+
+#sushi {
+    color: black;
+    background-color: rgb(229, 209, 152);
+}
+
+article {
+    color: black;
+    background-color: rgb(153, 153, 153);
+}
