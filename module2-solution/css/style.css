@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h1 {
@@ -10,29 +10,36 @@ h1 {
 
 section {
     font-weight: bold;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 20px 10px 20px 10px;
     border: 3px solid;
+    color: black;
+    background-color: rgb(153, 153, 153);
+    font-weight: 500;
 }
 
-#chicken {
+h3 {
+    float: right;
+    padding: 5px;
+    border: 2px black solid;
+    margin: 0px;
+}
+
+p {
+    clear: both;
+}
+
+.chicken > h3 {
     color: black;
     background-color: rgb(213, 152, 152);
 }
 
-#beef {
+.beef > h3 {
     color: white;
     background-color: rgb(193, 69, 67);
 }
 
-#sushi {
+.sushi > h3 {
     color: black;
     background-color: rgb(229, 209, 152);
-}
-
-article {
-    color: black;
-    background-color: rgb(153, 153, 153);
-    font-weight: 500;
-    padding: 10px;
 }
