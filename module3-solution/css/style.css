@@ -1,10 +1,14 @@
 #menu {
-    background-color: lightyellow;
     margin: 30px;
 }
 
 #menu > div {
     padding: 30px;
+}
+
+section {
+    background-color: lightyellow;
+    border: 10px solid white;
 }
 
 .navbar-collapse {
